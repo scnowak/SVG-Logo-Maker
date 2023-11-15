@@ -13,7 +13,8 @@ const {writeFile} = require('fs/promises')
 
 // TODO: Create an array of questions for user input
 //const questions = [
-   function init(){
+//    function init(){
+function generateLogo(){    
     inquirer
     .prompt([ 
     {
@@ -21,6 +22,17 @@ const {writeFile} = require('fs/promises')
         message: 'Please enter up to 3 characters that will be displayed on the logo:',
         name: 'characters',
         // name: 'projName',
+        validate: function(textLogo){
+            if(textLogo.length <=3 && textLogo.length !==0){
+                return true;
+            }else if (textLogo.length === 0){
+                console.log('Please enter 1 to 3 characters' )
+                return false;
+            }else{
+                console.log('Please enter no more than 3 characters')
+                return false;
+            }
+        }        
     },
     {
         type: 'input',
