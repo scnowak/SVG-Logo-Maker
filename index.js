@@ -11,9 +11,11 @@ const logoContent = require('./lib/shapes.js');
 const {writeFile} = require('fs/promises')
 
 
-// TODO: Create an array of questions for user input
+
 //const questions = [
 //    function init(){
+
+// TODO: Create an array of questions for user input
 function generateLogo(){    
     inquirer
     .prompt([ 
@@ -74,19 +76,21 @@ function generateLogo(){
 // // TODO: Create a function to write the data input to a  file
 // function writeToFile(fileName, data) {}
 
-// inquirer.prompt(questions)
 .then((response)=>{
 
     const img = svgContent(response)
     const final = img.render();
     console.log(response)
 
-    // fs.writeFile('logo.svg', generateMarkdown(response), (err)=>{
-        fs.writeFile('logo.svg', generateMarkdown(response), (err)=>{    
+        fs.writeFile('../Examples/logo.svg', generateMarkdown(response), (err)=>{    
         err ? console.error(err) : console.log("Generate logo  is WORKING!");
     });
 });
 }
     
-// // Function call to initialize app
-init();
+// Function call to initialize app
+// init();
+
+
+// Function call to generate logo app
+generateLogo();
