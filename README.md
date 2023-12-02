@@ -51,20 +51,17 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ```
 
 ## Usage Instructions
-1. Open the cloned repository in any source code editor e.g. Visual Studio Code.
+1. Open the cloned repository in any source code editor. For example: Visual Studio Code.
 2. Open integrated terminal on index.js
 3. Enter “node index.js” in the command line
-4. Through sequential order within the command line interface - the user will be presented with npm inquirer questions - the user will provide a response to each question and proceed.
-5. Once completed a SVG file named "logo.svg" will be created.
-6. At your discretion, you may rename the "logo.svg" file to the file name of your choice.
-7. (Optional) Regarding future use, you may alter the prompted questions within the index.js to best suit your needs.
-8. (Optional) The SVG Logo Maker serves as a foundation so you are not limited to altering the files (as you have my permission) to create the best possible "logo.svg" file.
+4. At command line interface - the user will be presented with npm inquirer questions - the user will provide a response to each question and proceed.
+5. Once completed a SVG file named "Circle.svg" will be created.
+
 
 ## Solution URL:
+
 <!-- [Solution URL Link:]( https://thomascalle.github.io/Thomas-Object-Oriented-Programming-SVG-Logo-Maker/) -->
 
-<!-- ## YouTube Walkthrough Video:
-[Click Here to Watch](https://www.youtube.com/watch?v=GJYMcLus3v0&t=18s) -->
 
 ## Screenshots:
 ### Figure 1. Command line application

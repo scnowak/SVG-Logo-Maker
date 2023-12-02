@@ -1,7 +1,1 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-        width="300px" height="200px">
-        <circle cx="50" cy="50" r="50"
-        fill="WHITE" />
-        <style>.text { font-size: 30px; }</style>
-        <text x="25" y="50" class="text"
-        fill="GREEN">SCN</text></svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300px" height="200px"> <circle cx="50" cy="50" r="50" fill="green" /><style>.text { font-size: 30px; }</style><text x="25" y="50" class="text" fill="white">scn</text></svg>

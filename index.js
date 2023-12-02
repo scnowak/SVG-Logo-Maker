@@ -1,14 +1,12 @@
 // TODO: Include packages needed for this application
-
+// Inquirer (node package manager) import
 const inquirer = require("inquirer");
-
+// File system module (node package manager) import
 const fs = require("fs");
-
-// const generateMarkdown =require('./generateMarkdown');
-
+// Importing classes from ./lib/shapes directory
 const {Circle, Square, Triangle} = require("./lib/shapes.js");
 
-const { writeFile } = require("fs/promises");
+//scnconst { writeFile } = require("fs/promises");
 
 //const questions = [
 //    function init(){
@@ -61,19 +59,19 @@ function generateLogo() {
         case "Square":
           img=new Square(
             response.text, response.textColor, response.shapeColor
-          )
+          );
           
           break;
         case "Triangle":
           img=new Triangle(
             response.text, response.textColor, response.shapeColor
-          )
+          );
           
           break;
         case "Circle":
           img=new Circle(
             response.text, response.textColor, response.shapeColor
-          )
+          );
           
           break;
       
@@ -89,8 +87,7 @@ function generateLogo() {
 
 
   function writeToFile(fileName, data) {
-    var content = generateLogo(data);
-    console.log("Writing [" + data + "] to file [" + fileName + "]");
+    //console.log("Writing [" + data + "] to file [" + fileName + "]");
     fs.writeFile(fileName, data, function (err) {
       if (err) {
         return console.log(err);
