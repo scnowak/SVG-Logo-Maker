@@ -7,19 +7,17 @@ Build a Node.js command-line application that takes in user input to generate a 
 ## Description:
 The application enables users to enter inputs into a inquirer prompt in order to generate a logo "logo.svg" file which contains the users desired results as an SVG image.
 
-## Table of Contents:
-- [Overview](#Overview)
-- [The Challenge](#The-Challenge)
-- [Usage Information](#Usage-Information)
-- [Installation Process](#Installation-Process)
-- [Built With](#Built-With)
-- [What I Learned](#What-I-Learned)
-- [Continued Development](#Continued-Development)
-- [License](#License)
-<!-- - [Contact Me](#Contact) -->
-- [Acknowledgments](#Acknowledgments)
+### Table of Contents:
+- [Overview](#overview)
+- [The Challenge](#the-challenge)
+- [Usage Instructions](#usage-instructions)
+- [Solution URL](#solution-url)
+- [Installation Process](#installation-process)
+- [Built With](#built-with)
+- [Contact Me](#contact)
 
-# Overview
+
+## Overview
 
 ## The Challenge:
 Build a Node.js command-line application that takes in user inputs to generates a SVG logo and saves it as "Circle.svg" file. Code also has the functionality to create a "Square.svg" or "Triangle.svg". In addition, create a walkthrough video that demonstrates its functionality and the passing of all of the tests.
@@ -44,7 +42,7 @@ THEN I can enter a color keyword (OR a hexadecimal number)
 WHEN I am prompted for a shape
 THEN I am presented with a list of shapes to choose from: square, circle, or triangle 
 WHEN I have entered input for all the prompts
-THEN an SVG file is created named `Circle.svg` or `Square.svg` or `Triangle.svg`
+THEN an SVG file is created named `Circle.svg`
 AND the output text "Generate logo  is WORKING!!" is printed in the command line
 WHEN I open the `Circle.svg` file in live server or browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
@@ -60,54 +58,40 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Solution URL:
 
-<!-- [Solution URL Link:]( https://thomascalle.github.io/Thomas-Object-Oriented-Programming-SVG-Logo-Maker/) -->
+https://drive.google.com/file/d/1usWbTm-kDc9GoSi1pen6yf3DsKr0kwYE/view
+
+
+https://github.com/scnowak/SVG-Logo-Maker
 
 
 ## Screenshots:
-### Figure 1. Command line application
+### IMAGE 1.
 ![](./images/svg-logo-maker.png) 
-### Figure 2. Jest Testing "npm test"
+### IMAGE 2.
 ![](./images/jest-test.png)
-### Figure 3. Generated "logo.svg" file
-![](./images/generated-logo.svg.png)
+### IMAGE 3.
+![](./images/logo-final.png)
 
 ## Installation Process
 1. Clone the repository: https://github.com/scnowak/SVG-Logo-Maker
-2. Install the following: 
-- Inquirer.js: [Version 8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4)
-- Node.JS [Version 16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
-- Jest [Version 29.4.3](https://www.npmjs.com/package/jest)
+2. Install: 
+* Inquirer.js: [Version 8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4)
+* Node.JS [Version 16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
+* Jest [Version 29.4.3](https://www.npmjs.com/package/jest)
 
 3. Open the cloned repository in vscode.
-4. Open the integrated terminal for the document and complete the respective installation guides provided above in section (2.) to ensure the cloned documentation will operate.
+4. Open the integrated terminal for the document and complete the installations. Read the documentation in the links.
 
 ## Built With
-- Visual Studio Code: [Website](https://code.visualstudio.com/)
-- License Badge: [Shields.io](https://shields.io/)
-- Inquirer.js: [Version 8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4)
-- Dynamic JavaScript
-- Node.js [Version 16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
-- Jest [Version 29.4.3](https://www.npmjs.com/package/jest)
-
-
-
-
-## What I Learned
-- Create an non-deployed application that invokes a “node index.js” in the command line to generate a logo and save it as a SVG file.
-- Learned the JavaScript testing framework "Jest".
-
-### Continued Development:
-1. Continue creating SVG files to practice
-2. Add more user prompts to create more possibilities among a rendered SVG image.
-
-## License
-  
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [Open Source Initiative Link](https://opensource.org/licenses/MIT)
-
+*Visual Studio Code: [Website](https://code.visualstudio.com/)
+*Inquirer.js: [Version 8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4)
+*Dynamic JavaScript
+*Node.js [Version 16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
+*Jest [Version 29.4.3](https://www.npmjs.com/package/jest)
 
   
 ## Contact
 
-Github: https://github.com/scnowak
+Github: https://github.com/scnowak   <br>
 Email: shan.nowak93@gmail.com
 
